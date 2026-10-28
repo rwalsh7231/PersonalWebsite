@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robert Walsh — Backend, Data &amp; ML Engineer</title>
+  <meta name="description" content="Personal website of Robert Walsh — backend & data engineer with a focus on machine learning, computer vision, and embedded systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= Header / Nav ================= -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">&lt;<span class="logo-accent">rw</span> /&gt;</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="index.html" class="active">Home</a>
+        <a href="machine-learning.html">Machine Learning</a>
+        <a href="computer-vision.html">Computer Vision</a>
+        <a href="games.html">Games</a>
+        <a href="engineering.html">Engineering</a>
+        <a href="https://github.com/rwalsh7231" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= Hero ================= -->
+    <section class="hero container">
+      <div>
+        <p class="hero-label">$ whoami</p>
+        <h1>Hi, I'm <span class="gradient">Robert Walsh</span>.</h1>
+        <p class="hero-role">Backend &amp; Data Engineer · ML Enthusiast</p>
+        <p class="desc">
+          I build data infrastructure and machine learning systems — from agentic AI
+          pipelines processing millions of records a day to computer vision models that
+          fly drones without GPS. Currently at Charter Communications via Brooksource.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work ↓</a>
+          <a class="btn" href="https://www.linkedin.com/in/robjwalsh" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <div class="hero-meta">
+          <span>Wentzville, Missouri</span>
+          <span>MS Computer Science, WashU</span>
+        </div>
+      </div>
+
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+          <span class="title">rw@stl: ~/about</span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="t-prompt">$</span> cat profile.json</div>
+          <div>{</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"role"</span>: <span class="t-val">"Associate Backend/Data Engineer"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"focus"</span>: [<span class="t-val">"ML"</span>, <span class="t-val">"Data Pipelines"</span>, <span class="t-val">"Vision"</span>],</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"stack"</span>: [<span class="t-val">"Python"</span>, <span class="t-val">"Spark"</span>, <span class="t-val">"PyTorch"</span>, <span class="t-val">"AWS"</span>],</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"location"</span>: <span class="t-val">"St. Louis, MO"</span>,</div>
+          <div>&nbsp;&nbsp;<span class="t-key">"status"</span>: <span class="t-val">"open to interesting problems"</span></div>
+          <div>},</div>
+          <div><span class="t-prompt">$</span> <span class="t-cursor"></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Project categories ================= -->
+    <section class="section container" id="projects">
+      <div class="section-head">
+        <p class="section-label">// project categories</p>
+        <h2>What I've been building</h2>
+      </div>
+      <div class="category-grid">
+        <a class="category-card reveal" style="--cat:#38bdf8" href="machine-learning.html">
+          <span class="icon">🧠</span>
+          <h3>Machine Learning</h3>
+          <p>Reinforcement learning agents, comparison studies, and deep learning coursework.</p>
+          <span class="go">view projects →</span>
+        </a>
+        <a class="category-card reveal" style="--cat:#a78bfa" href="computer-vision.html">
+          <span class="icon">👁️</span>
+          <h3>Computer Vision</h3>
+          <p>Gesture control, drone navigation, and NLP-guided robotics in real time.</p>
+          <span class="go">view projects →</span>
+        </a>
+        <a class="category-card reveal" style="--cat:#f472b6" href="games.html">
+          <span class="icon">🎮</span>
+          <h3>Games &amp; Interactive</h3>
+          <p>From gesture-controlled gaming to CTF cyber-security challenges.</p>
+          <span class="go">view projects →</span>
+        </a>
+        <a class="category-card reveal" style="--cat:#34d399" href="engineering.html">
+          <span class="icon">🛠️</span>
+          <h3>Engineering</h3>
+          <p>Production data pipelines, SQL optimization, and mobile app development.</p>
+          <span class="go">view projects →</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= Skills ================= -->
+    <section class="section container">
+      <div class="section-head">
+        <p class="section-label">// stack</p>
+        <h2>Skills &amp; tools</h2>
+      </div>
+      <div class="reveal">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">Java</span><span class="chip">C</span>
+            <span class="chip">C++</span><span class="chip">C#</span><span class="chip">Bash</span>
+            <span class="chip">SQL</span><span class="chip">JavaScript</span><span class="chip">R</span>
+            <span class="chip">Ruby</span><span class="chip">Swift</span><span class="chip">Scala</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks &amp; Libraries</h3>
+          <div class="chips">
+            <span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">Keras</span>
+            <span class="chip">Pandas</span><span class="chip">Scikit-Learn</span><span class="chip">React</span>
+            <span class="chip">Node.js</span><span class="chip">Django</span><span class="chip">OpenCV</span>
+            <span class="chip">PySpark</span><span class="chip">Kubernetes</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Technologies</h3>
+          <div class="chips">
+            <span class="chip">AWS</span><span class="chip">Apache Airflow</span><span class="chip">Linux</span>
+            <span class="chip">Git</span><span class="chip">RESTful APIs</span><span class="chip">RAG</span>
+            <span class="chip">MCP</span><span class="chip">NLP</span><span class="chip">CI/CD</span>
+            <span class="chip">Embedded Dev</span><span class="chip">Generative AI</span><span class="chip">Agentic AI</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= Experience ================= -->
+    <section class="section container">
+      <div class="section-head">
+        <p class="section-label">// experience</p>
+        <h2>Where I've worked</h2>
+      </div>
+      <div class="exp-list">
+        <article class="exp-card reveal">
+          <div class="exp-date">
+            Aug 2025 — Present
+            <br /><span class="current">current</span>
+          </div>
+          <div>
+            <h3>Associate Backend / Data Engineer</h3>
+            <p class="exp-company">Charter Communications · via Brooksource · St. Louis, MO</p>
+            <ul>
+              <li>Developed an agentic AI fraud investigation system in Python and React/JavaScript, automating evidence gathering, analysis, and case summarization — cutting review time 87% (2 hours → 15 minutes).</li>
+              <li>Optimized 2,000+ Amazon Redshift SQL queries, reducing average execution time by 75% (2 minutes → 30 seconds).</li>
+              <li>Built data pipelines processing 10M+ records daily with Python, Java, Airflow, Spark, Redshift, and S3 — deployed on Docker, AWS EKS, and Terraform.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-card reveal">
+          <div class="exp-date">Aug 2024 — Dec 2024</div>
+          <div>
+            <h3>Computer Vision / Embedded Student Developer</h3>
+            <p class="exp-company">Skyline Nav AI Inc · Remote</p>
+            <ul>
+              <li>Designed and implemented computer vision and deep learning systems in Python enabling autonomous drone navigation in GPS-denied environments using PyTorch and OpenCV.</li>
+              <li>Reduced inference latency and resource utilization by optimizing real-time neural networks for low-power edge hardware, including Raspberry Pi devices.</li>
+              <li>Applied embedded development principles to design and build a small-scale drone from scratch, programmed in C and C++.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="exp-card reveal">
+          <div class="exp-date">Jan 2023 — May 2023</div>
+          <div>
+            <h3>Student App Developer</h3>
+            <p class="exp-company">Missouri Botanical Gardens · St. Louis, MO</p>
+            <ul>
+              <li>Contributed to the GoNativeSTL iOS application in Swift, supporting 500+ active users.</li>
+              <li>Leveraged user feedback and usage analytics to identify root causes of recurring issues and guide development priorities.</li>
+              <li>Resolved critical bugs and usability issues, improving app stability and experience.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= Education ================= -->
+    <section class="section container">
+      <div class="section-head">
+        <p class="section-label">// education</p>
+        <h2>Education</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <h3>Master of Science, Computer Science</h3>
+          <p class="school">Washington University in St. Louis</p>
+          <p class="gpa">GPA: 3.83 / 4.00</p>
+          <p class="courses">Coursework: Deep Reinforcement Learning, Computer Vision</p>
+        </div>
+        <div class="edu-card reveal">
+          <h3>Bachelor of Science, Computer Science</h3>
+          <p class="school">Washington University in St. Louis</p>
+          <p class="gpa">GPA: 3.70 / 4.00</p>
+          <p class="courses">Coursework: Parallel &amp; Concurrent Programming, Introduction to AI</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Robert Walsh · Built with plain HTML &amp; CSS</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/robjwalsh" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/rwalsh7231" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

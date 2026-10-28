@@ -1,0 +1,50 @@
+Robert Walsh
+LinkedIn: www.linkedin.com/in/robjwalsh, Github: https://github.com/rwalsh7231
+Wentzville, Missouri
+Charter Communications - via Brooksource, St. Louis Missouri, Associate Backend/Data Engineer, August 2025 - Current
+-​ Developed an agentic AI fraud investigation system using Python and React/JavaScript, automating evidence gathering, analysis, and case
+summarization to reduce review time by 87% (2 hours to 15 minutes).
+-​ Optimized 2,000+ Amazon Redshift SQL queries, reducing average execution time by 75% (2 minutes to 30 seconds).
+-​ Built data pipelines processing 10M+ records daily using Python, Java, Airflow, Spark, Redshift, and AWS S3, deploying with Docker,
+AWS EKS, and Terraform to improve analytics data availability.
+Skyline Nav AI Inc, Remote, Computer Vision/Embedded Student Developer, August 2024 - December 2024
+-​ Designed and implemented computer vision and deep learning systems developed in Python that enabled autonomous drone navigation in
+GPS-denied environments using PyTorch and OpenCV.
+-​ Reduced inference latency and resource utilization through optimization of real-time neural network algorithms for low-power edge
+hardware, including Raspberry Pi devices.
+-​ Utilized embedded development principles to design and build a small-scale drone from scratch programmed in C and C++.
+Missouri Botanical Gardens, St. Louis, Missouri, Student App Developer, January 2023 - May 2023
+-​ Contributed to the development of the GoNativeSTL iOS application using Swift, supporting a user base of 500+ active users.
+-​ Leveraged user feedback and usage analytics to identify root causes of recurring issues and guide development priorities.
+-​ Resolved critical bugs and usability issues, improving application stability and user experience.
+Projects
+Computer Vision Controller
+-​ Built a computer vision model in Python with PyTorch and OpenCV to detect hand gestures in real-time with 97% accuracy.
+-​ Integrated model output with an emulated controller, enabling users to control programs and games with just hand gestures.
+-​ Created and processed image-based dataset, including adversarial and transformed entries, to improve robustness and accuracy.
+Machine Learning Dynamic Map Navigation
+-​ Implemented and compared Q-Learning, DQN, and Double DQN agents in Python with dynamically changing maze environments.
+-​ Developed a greedy-epsilon expiration and reward system which rewarded agents based on distance, terrain costs, and completion times.
+-​ Analyzed and visualized hundreds of episodes with Matplotlib, displaying scores and loss over time, finding Double DQN converging in 20
+episodes, DQN in 90, and Q-Learning in 300.
+Extracurricular Activities
+WashU Robotics Club
+-​ Collaborated on the development of a vision-guided robotic system capable of interpreting natural language instructions with Python using
+Natural Language Processing (NLP) and executing corresponding physical actions.
+-​ Integrated PyTorch-based neural networks for language grounding and object recognition, enabling real-time interpretation of commands
+such as “pick up the red marker” using visual input and motor control.
+Bearshell WashU
+-​ Competed in Capture the Flag (CTF) cybersecurity challenges, performing penetration testing across binary and network security domains.
+-​ Exploited vulnerabilities including SQL injection, buffer overflows, and misconfigured services using Python, Bash, C, and C++.
+-​ Executed offensive security techniques including reverse shell deployment, cryptographic analysis, and network traffic interception in
+sandboxed environments.
+Education
+Master of Science, Computer Science, Washington University in St. Louis, GPA: 3.83/4.00
+-​ Relevant Coursework: Deep Reinforcement Learning, Computer Vision
+Bachelor of Science, Computer Science, Washington University in St. Louis, GPA: 3.70/4.00
+-​ Relevant Coursework: Introduction to Parallel and Concurrent Programming, Introduction to Artificial Intelligence
+Skills
+Languages: Python, Java, C, C++, C#, Bash, SQL, JavaScript, R, Ruby, Swift, Scala
+Frameworks and Libraries: TensorFlow, PyTorch, Keras, Pandas, React, Node.js, Django, OpenCV, PySpark, Kubernetes, Scikit-Learn
+Other Tools & Technologies: AWS, Apache Airflow, Deep Learning, Linux, Git, RESTful APIs, RAG, MCP, NLP, CI/CD, Embedded
+Development, Generative AI, Agentic AI

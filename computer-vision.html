@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Computer Vision — Robert Walsh</title>
+  <meta name="description" content="Computer vision and robotics projects by Robert Walsh: gesture control, drone navigation, and NLP-guided robots." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ================= Header / Nav ================= -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">&lt;<span class="logo-accent">rw</span> /&gt;</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="machine-learning.html">Machine Learning</a>
+        <a href="computer-vision.html" class="active">Computer Vision</a>
+        <a href="games.html">Games</a>
+        <a href="engineering.html">Engineering</a>
+        <a href="https://github.com/rwalsh7231" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="page-header">
+      <p class="section-label">// category</p>
+      <h1>Computer Vision</h1>
+      <p class="lede">
+        Real-time vision systems — from hand-gesture controllers to GPS-denied
+        drone navigation and natural-language-guided robotics, optimized for
+        edge hardware.
+      </p>
+    </div>
+
+    <section class="section">
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <span class="p-tag">GESTURE RECOGNITION</span>
+          <h3>Computer Vision Controller</h3>
+          <p class="p-desc">
+            A real-time hand-gesture controller built in Python with PyTorch and
+            OpenCV, achieving 97% detection accuracy.
+          </p>
+          <ul>
+            <li>Integrated model output with an emulated controller, letting users control programs and games with hand gestures alone.</li>
+            <li>Created and processed an image-based dataset, including adversarial and transformed entries, to improve robustness.</li>
+            <li>97% real-time gesture detection accuracy.</li>
+          </ul>
+          <div class="p-tech">
+            <span>Python</span><span>PyTorch</span><span>OpenCV</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="p-tag">AUTONOMOUS DRONES · EDGE</span>
+          <h3>GPS-Denied Drone Navigation</h3>
+          <p class="p-desc">
+            Computer vision and deep learning systems enabling autonomous drone
+            navigation in GPS-denied environments, built at Skyline Nav AI.
+          </p>
+          <ul>
+            <li>Designed vision-based navigation in Python with PyTorch and OpenCV for environments with no GPS signal.</li>
+            <li>Reduced inference latency and resource usage by optimizing real-time neural networks for low-power edge hardware (Raspberry Pi).</li>
+            <li>Designed and built a small-scale drone from scratch, programmed in C and C++.</li>
+          </ul>
+          <div class="p-tech">
+            <span>Python</span><span>PyTorch</span><span>OpenCV</span><span>C/C++</span><span>Embedded</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <span class="p-tag">NLP + ROBOTICS</span>
+          <h3>Vision-Guided Natural Language Robot</h3>
+          <p class="p-desc">
+            A WashU Robotics Club project: a robotic system that interprets
+            natural language commands and executes physical actions.
+          </p>
+          <ul>
+            <li>Combined NLP with PyTorch neural networks for language grounding and object recognition.</li>
+            <li>Enabled real-time command interpretation like "pick up the red marker" using visual input and motor control.</li>
+            <li>Collaborative club project spanning perception, language, and actuation.</li>
+          </ul>
+          <div class="p-tech">
+            <span>Python</span><span>PyTorch</span><span>NLP</span><span>Robotics</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= Footer ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© 2026 Robert Walsh · Built with plain HTML &amp; CSS</span>
+      <div class="footer-links">
+        <a href="https://www.linkedin.com/in/robjwalsh" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/rwalsh7231" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
